@@ -41,20 +41,23 @@ section{
     @media (max-width: 480px) {
       body {
           flex-direction: column;
-          margin: 0; /* Remove large margins on mobile */
+          margin: 0;
+          justify-content: center;
+          align-items: center; /* Remove large margins on mobile */
       }
   
       .left-side,
       .right-side {
           width: 100%; /* Full width on mobile */
           height: auto; /* Adjust height based on content */
-          padding: 15px; /* Reduce padding for better fit */
+          padding: 10px; /* Reduce padding for better fit */
       }
   
       .profile-img {
           width: 100px;
-          height: 100px;
+          height: auto;
           margin: 0 auto;
+          margin-left: 20px; ;
       }
   
       .title,
