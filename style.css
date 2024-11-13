@@ -41,9 +41,9 @@ section{
     @media (max-width: 480px) {
       body {
           flex-direction: column;
-          margin: 0;
+          margin-left: 20px;
           justify-content: center;
-          align-items: center; /* Remove large margins on mobile */
+          /* Remove large margins on mobile */
       }
   
       .left-side,
