@@ -1,7 +1,7 @@
 section{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
-    @media (min-width: 786px) {
+    @media (min-width: 360px) {
         .resume {
           margin: 50px auto;
         }
@@ -17,7 +17,7 @@ section{
         text-align: left;
      
         
-     @media (min-width: 786) {
+     @media (min-width: 786px) {
             .resume_profile .details {
               margin: 50px 0;
             }
@@ -29,12 +29,12 @@ section{
         margin-left: 40vh;
         margin-top: 10vh;
       flex-direction: row;
-      @media (min-width: 786px) {
-        .resume_container {
-          flex-direction: row;
-      
+      @media (max-width: 480px) {
+        body {
+            font-size: 14px;
+            
         }
-      }
+    }
     }
       
    
@@ -129,7 +129,7 @@ color:#2b2741;
 height: auto;
 text-align: left;
 border-left: 5px solid #c2bddf;
-@media (min-width: 786) {
+@media (min-width: 360px) {
     .resume_information:last-child {
       box-shadow: inset 5px 0 6px 0 #afafb2;
     }
