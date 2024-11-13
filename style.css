@@ -38,7 +38,7 @@ section{
       margin-left: 60px;
        
     }
-    @media (max-width: 480px) {
+    @media (max-width: 470px) {
       body {
           flex-direction: column;
           margin-left: 20px;
